@@ -49,6 +49,8 @@ _`{
 2. <code>
     pyhton main.py
    </code> 
+   to start the flask server
+   python src/server/StatsAPI.py
 
 3. The sample service response http://<host_name>:5150/stats 
 NOTE: The Ip changes depend on the system it runs.
