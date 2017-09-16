@@ -2,8 +2,8 @@
 
 import json
 
-from lib.Flask import Flask
-
+#from lib.Flask import Flask
+from flask import Flask
 from utils import Logger
 import socket
 
