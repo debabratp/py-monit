@@ -50,8 +50,8 @@ _`{
     pyhton main.py
    </code> 
 
-3. The sample service response http://10.249.106.250:2126/stats 
-NOTE: The Ip change on every system restart due to VPN.
+3. The sample service response http://<host_name>:5150/stats 
+NOTE: The Ip changes depend on the system it runs.
 
 <code>
 {
@@ -113,7 +113,7 @@ NOTE: The Ip change on every system restart due to VPN.
       }
     }
   ],
-  "hostname": "MACAIM00057.local",
+  "hostname": "local",
   "disk_stat": "28.4",
   "swap_memory_stat": "62.4",
   "cpu_stat": "16.0"
