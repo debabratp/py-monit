@@ -1,0 +1,35 @@
+{
+	"alert": {
+		"cpu": {
+			"critical": 90,
+			"warning": 80,
+			"repeat": 3
+		},
+		"memory": {
+			"virtual":{
+				"critical": 40,
+				"warning": 50,
+				"repeat": 3
+			},
+			"swap": {
+				"critical": 35,
+				"warning": 45,
+				"repeat": 3
+			}
+
+		},
+		"disk": {
+			"critical": 10,
+			"warning": 30,
+			"repeat": 3
+		},
+		"processes": [{
+			"name": "csproxy",
+			"start_script": "/ngs/app/apgd/csproxy/bin/apg.sh"
+		}, {
+			"name": "wpproxy",
+			"start_script": "/ngs/app/apgd/wpproxy/bin/apg.sh"
+		}]
+	},
+	"emailTo": "debabrat_panda@apple.com"
+}
