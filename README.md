@@ -1,4 +1,5 @@
-       
+ A python program to grab the system stats. It use the threashold file [config] to generate the alerts. It has a publisher, to publish the stats. And an Subscriber to grab the data.
+ 
 **Structure of Config file**
   
 _`{
